@@ -38,5 +38,9 @@
   "city": {
     "dataSource": "db",
     "public": true
+  },
+  "region": {
+    "dataSource": "db",
+    "public": true
   }
 }
