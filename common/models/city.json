@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "regions": {
+      "type": "hasMany",
+      "model": "region",
+      "foreignKey": "cityId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
