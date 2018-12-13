@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongod": {
+    "host": "mongo",
+    "port": 27017,
+    "url": "mongodb://mongo:27017/lb3ex",
+    "database": "lb3ex",
+    "name": "mongod",
+    "connector": "mongodb"
   }
 }

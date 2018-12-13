@@ -12,8 +12,8 @@ services:
     image: mongo
     ports:
       - '27017:27017'
-    environment:
+    # environment:
       # MONGO_INITDB_DATABASE: lb3ex
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: 12345678
-    command: --auth
+      # MONGO_INITDB_ROOT_USERNAME: root
+      # MONGO_INITDB_ROOT_PASSWORD: 12345678
+    # command: --auth

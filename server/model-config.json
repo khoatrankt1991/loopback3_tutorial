@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongod"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": false
   },
   "city": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": true
   },
   "region": {
-    "dataSource": "db",
+    "dataSource": "mongod",
     "public": true
   }
 }
