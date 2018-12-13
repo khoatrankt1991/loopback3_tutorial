@@ -1,0 +1,19 @@
+version: '3'
+services:
+  backend:
+    build: .
+    ports:
+      - '80:3000'
+    container_name: lb3-backend-api
+    links:
+      - mongo
+  mongo:
+    container_name: lb3-db-mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+    environment:
+      # MONGO_INITDB_DATABASE: lb3ex
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 12345678
+    command: --auth
