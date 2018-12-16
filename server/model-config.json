@@ -46,5 +46,9 @@
   "hashtag": {
     "dataSource": "mongod",
     "public": true
+  },
+  "Transaction": {
+    "dataSource": "mongod",
+    "public": true
   }
 }
