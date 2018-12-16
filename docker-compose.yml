@@ -7,6 +7,10 @@ services:
     container_name: lb3-backend-api
     links:
       - mongo
+    volumes:
+      - ./server:/usr/src/app/server
+      - ./common:/usr/src/app/common
+      - ./package.json:/usr/src/app/package.json
   mongo:
     container_name: lb3-db-mongo
     image: mongo

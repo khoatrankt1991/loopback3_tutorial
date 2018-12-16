@@ -42,5 +42,9 @@
   "region": {
     "dataSource": "mongod",
     "public": true
-  }
+  },
+  "hashtag": {
+    "dataSource": "mongod",
+    "public": true
+  },
 }
