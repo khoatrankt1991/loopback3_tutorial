@@ -50,5 +50,9 @@
   "Transaction": {
     "dataSource": "mongod",
     "public": true
+  },
+  "rating": {
+    "dataSource": "mongod",
+    "public": true
   }
 }
